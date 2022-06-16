@@ -1,4 +1,4 @@
-package Map;
+package Exercice_4.Map;
 
 import java.awt.Color;
 

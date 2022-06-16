@@ -1,4 +1,4 @@
-package Map;
+package Exercice_4.Map;
 
 public class Etalage extends Emplacement {
     public Etalage(int couleur, int xCentre, int yCentre) {

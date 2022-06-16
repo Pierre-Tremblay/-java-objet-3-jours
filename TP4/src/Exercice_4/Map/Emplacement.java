@@ -1,4 +1,4 @@
-package Map;
+package Exercice_4.Map;
 
 public abstract  class Emplacement {
     private int dimension;

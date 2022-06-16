@@ -1,4 +1,4 @@
-package Map;
+package Exercice_4.Map;
 
 public class Terrasse extends Emplacement {
     public Terrasse(int couleur, int xCentre, int yCentre) {
