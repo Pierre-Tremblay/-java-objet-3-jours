@@ -3,15 +3,11 @@ package Exercice_1;
 public class Nombre {
     private int nbATrouver;
 
-    public int nbAleatoire(int limit) {
-        int nombreATrouver = 0;
-        nombreATrouver = (int) (Math.random() * limit);
-        System.out.println(nombreATrouver);
-        return nombreATrouver;
+    public Nombre(int limit) {
+        this.nbATrouver = (int) (Math.random() * limit);
     }
 
-
-
-
-
+    public int getNbATrouver() {
+        return nbATrouver;
+    }
 }
